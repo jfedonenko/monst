@@ -1,0 +1,36 @@
+$green: #c1cdb8;
+$grey: #202e23;
+$green-bl:#2a5332;
+$white:#fff;
+
+
+
+.header{
+  background: rgb(255, 255, 255);
+  padding: 40px 0 10px;
+}
+.logo_img{
+  max-width: 97px;
+}
+.mega-sub-menu li:hover{
+  border: 1px solid transparent !important;
+}
+.mega-sub-menu li:hover{
+  border: 1px solid rgba(255, 255, 255, 0.329) !important;
+}
+
+#mega-menu-wrap-max_mega_menu_1 #mega-menu-max_mega_menu_1 > li.mega-menu-flyout ul.mega-sub-menu li.mega-menu-item ul.mega-sub-menu{
+  left: 110% !important;
+}
+.branch{
+  border-top: 4px double $green;
+  text-align: center;
+  margin: 20px auto 0;     
+  overflow: hidden;
+  padding: 40px 0 10px;
+
+}
+.branch__img{
+
+  max-width: 300px;
+}

@@ -1,0 +1,92 @@
+.post{
+    padding: 25px 0;
+    h1{
+        font-size: 44px;
+        text-align: center;
+        margin-bottom: 42px;
+    }
+        .blok{
+            max-width: 70%;
+            margin: 0px auto;
+            text-align: justify;
+            border-bottom: 4px double $green; 
+            padding-bottom: 40px; 
+            .date{
+                font-size: 14px;
+                font-style: italic;
+                margin:23px 0  29px 0;
+                display: block;
+            }
+            p{
+                margin-bottom: 15px;
+            }
+        }
+        .blok1{
+            max-width: 70%;
+            margin: 0px auto;
+            text-align: justify;
+                       padding-bottom: 40px; 
+        }
+        .preview{
+margin: 10px 0 0 30px;
+        }
+        .next{
+            margin-right: 30px;
+        }
+        
+
+        
+        .post__img{
+            width: 45px;
+            height: 75px;
+            
+        }
+     
+        .post__name{
+           max-width: 200px;
+        font-size: 17px; 
+        font-family: 'Playfair Display', serif; 
+        color: #262626;
+        margin-top: 10px;
+        }
+        .comment{
+            margin: 30px 0 15px;
+            .date{
+                margin: 16px 0 17px 0;
+            }
+            span{
+                margin: 0 10px;
+            }
+            .reply{
+                width: 51px;
+                height: 18px;
+            }
+
+        }
+.comment__img{
+    width: 61px;
+    height: 61px;
+    margin-right: 24px;
+}
+
+.ml{
+    margin-left: 45px;
+}
+        h3{
+            font-size: 24px;
+            margin: 40px 0 35px;
+        }
+        h4{
+            font-size: 20px;
+        }
+       .inp{
+           font-style: italic;
+           font-size: 12px;
+           border-bottom: 1px solid #ccc;
+           margin: 15px 0;
+       }
+       .btn-blog{
+           width: 202px;
+           margin: 30px 0;
+       }
+    }

@@ -1,0 +1,68 @@
+
+.hero__text{
+  text-transform: uppercase;
+  font-size: 12px;
+  margin-top: 40px;
+}
+
+.sliders{
+  margin: 45px auto;
+
+img{
+  max-width: 315px;
+  margin: auto;
+}
+}
+
+.offer__md{
+    display: none;
+  }
+
+
+.social__list{
+  max-width: 200px; 
+  justify-content: space-between;
+  margin: 25px auto;
+  color:$grey;
+    li {
+      width: 51px;
+      height: 51px;
+      line-height: 50px;
+      margin: 0 10px 0px 0px;
+      text-align: center;
+      cursor: pointer;
+      border-radius: 50%;
+      border: 1px solid $grey;
+      transition: all 0.5s ease;
+    }
+    li:hover {
+      border: 1px solid $green-bl;
+      box-shadow: 0 0 15px $green;
+      transition: all 0.5s ease;
+  }
+}
+.offer__wrapp{
+  background: $green-bl;
+  max-width: 1035px;
+  width: 100%;
+  height: 140px;
+  outline: 1px solid #fff;
+   outline-offset: -22px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 45px 0 60px;
+   h2{
+      color: $white;
+      font-size: 25px;
+      max-width: 1000px;
+      width: 100%;
+      padding: 35px;
+      text-align: center;
+      span{
+      font-style: italic;
+      }
+    }
+
+}
+
